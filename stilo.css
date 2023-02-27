@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Sen&display=swap");
+* {
+  padding: 0;
+  margin: 0%;
+}
+body {
+  background-image: url(/assets/fundo-abstrato-roxo_1117-127.avif);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+
+  height: 100vh;
+}
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 50px;
+}
+#foto {
+  text-align: center;
+  margin: 24px;
+}
+#foto img {
+  width: 112px;
+}
+#foto p {
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding: 8px;
+  font-family: "Sen", sans-serif;
+}
+button {
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: white;
+  background: rgb(53, 23, 96);
+  background: linear-gradient(
+    90deg,
+    rgba(53, 23, 96, 0.9990371148459384) 0%,
+    rgba(111, 25, 198, 1) 46%,
+    rgba(181, 0, 255, 1) 100%
+  );
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+button:hover {
+  background-color: #b500ff;
+  box-shadow: 0px 15px 20px rgba(111, 25, 198, 0.4);
+  color: rgb(255, 255, 255);
+  transform: translateY(-2px);
+}
+button a {
+  color: white;
+  text-decoration: none;
+}
+button:active {
+  transform: translateY(-1px);
+}
+#button {
+  display: flex;
+  flex-direction: column;
+}
+button {
+  margin-top: 10px;
+}
+#social-links {
+  display: flex;
+  justify-content: center;
+}
+#social-links ion-icon {
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+  color: black;
+  font-size: 20px;
+}
